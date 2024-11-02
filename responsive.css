@@ -1,0 +1,282 @@
+@media(max-width:768px) {
+    .topcolorhalf1 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .topcolorhalf2 {
+        display: none;
+    }
+
+    /*logo part*/
+
+    .logopartsized {
+        width: 95%;
+        margin: auto;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .logo {
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+
+    .searchbar {
+        display: none;
+    }
+
+    .location {
+        display: none;
+
+    }
+
+    .cartinfo {
+        width: 50%;
+        height: auto;
+        float: none;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    /*all departments*/
+    .alldepartmentssized {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        padding: 15px 0 10px 0;
+    }
+
+    .departments {
+        width: 20%;
+        height: auto;
+        float: left;
+    }
+
+    .departments button {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /*banner*/
+    .bannersized {
+        width: 95%;
+    }
+
+    .bannerimg img {
+        width: 450px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .bannertext {
+        padding: 50px 0 0 50px;
+    }
+
+    .bannertext h1 {
+        font-size: 35px;
+    }
+
+    .bannertext p {
+        font-size: 15px;
+    }
+
+    /*featured categories*/
+    .fcimg1,
+    .fcimg2,
+    .fcimg3,
+    .fcimg4,
+    .fcimg5 {
+        width: 50%;
+        margin-bottom: 25px;
+        border-radius: 5px;
+    }
+
+    /*fruits and vegetables*/
+    .fruitsvegitablessized {
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+
+    .banner1,
+    .banner2 {
+        width: 100%;
+        height: auto;
+        float: none;
+
+    }
+
+    .banner1 {
+        padding-bottom: 10px;
+    }
+
+    /*popular product*/
+    .popularprodsized {
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+
+    .prodimg1,
+    .prodimg2,
+    .prodimg3,
+    .prodimg4,
+    .prodimg5,
+    .prodimg6,
+    .prodimg7,
+    .prodimg8,
+    .prodimg9,
+    .prodimg10 {
+        width: 60%;
+        margin: auto;
+        height: auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    /*Daily Best Sells*/
+
+    .dailybestsized {
+        width: 95%;
+        margin: auto;
+    }
+
+    .dailybanner {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    /*roastground , crushed tomatoes*/
+    .roastground {
+        width: 80%;
+        height: auto;
+        float: none;
+    }
+
+    .days,
+    .hours,
+    .mins,
+    .sec {
+        margin-bottom: 20px;
+    }
+
+    /*4 feautures*/
+    .features4fixed {
+        width: 95%;
+    }
+
+    .tenmin,
+    .bestprices,
+    .wide,
+    .easyreturns {
+        width: 100%;
+        float: none;
+    }
+
+    /*footer*/
+    .footersized {
+        width: 95%;
+    }
+
+    .footersized .flist1,
+    .footersized .flist2,
+    .footersized .flist3,
+    .footersized .flist4,
+    .footersized .flist5,
+    .footersized .flist6 {
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+
+    .flist2 {
+        padding-top: 0;
+    }
+
+    /*payment partners and app*/
+    .partners {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .payments {
+        width: 95%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .ptext h6 {
+        margin-right: 230px;
+    }
+
+    .payments .amazon,
+    .payments .express,
+    .payments .mastercard,
+    .payments .paypal,
+    .payments .visa {
+        width: 8%;
+        margin-right: 10px;
+    }
+
+    .apps {
+        width: 95%;
+        height: auto;
+        float: left;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .apptext h6 {
+        margin: 0 40px 0 0;
+    }
+
+    .rightsfixed {
+        width: 95%;
+        margin: auto;
+    }
+
+    .rights1,
+    .rightssocial {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .rightssocial {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .rightsfixed h6 {
+        font-size: 13px;
+        font-weight: 500;
+        color: #a5afab;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .rights1 span {
+        font-size: 15px;
+        color: #0AAD0A;
+    }
+
+    .rightssocial i {
+        color: #6e7572;
+        border: 1px solid #a5afab;
+        font-size: 18px;
+        margin-right: 6px;
+        border-radius: 5px;
+    }
+
+}

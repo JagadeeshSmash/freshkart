@@ -1,0 +1,808 @@
+/*importing icons from bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+}
+
+/*clearfix*/
+.fixsides {
+    clear: both;
+    display: table;
+}
+
+/*headings*/
+.headings {
+    font-size: 27px;
+    font-weight: 600;
+
+}
+
+header {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #F0F3F2;
+}
+
+.topcolor {
+    width: 100%;
+    height: 30px;
+    background-color: #F0F3F2;
+}
+
+.topcolorsized {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.topcolorsizedtotal {
+    width: 100%;
+    height: auto;
+}
+
+.topcolorhalf1 {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.topcolorhalf1 h4 {
+    margin: 0;
+    font-size: 15px;
+    padding: 5px 0 0 0;
+    font-weight: 500;
+    color: #5C6C75;
+
+}
+
+.topcolorhalf2,
+.topcolorhalf2 {
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.topcolorhalf2 {
+    text-align: end;
+
+}
+
+.topcolorhalf2 i {
+    margin: 0 5px 0 0;
+}
+
+.topcolorhalf2 select {
+    width: 100px;
+    height: 20px;
+    border: none;
+    margin: 5px;
+    font-size: 15px;
+}
+
+
+/*logo part*/
+
+.logopartsized {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+    float: left;
+}
+
+.searchbar {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.searchbar input {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    border: 2px solid #F0F3F2;
+    border-radius: 5px;
+}
+
+.location {
+    width: 20%;
+    height: auto;
+    float: left;
+    padding: 0 0 0 20px;
+
+}
+
+.location button {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #C1C7C6;
+    color: #a3aeac;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.cartinfo {
+    width: 20%;
+    height: auto;
+    float: left;
+    text-align: end;
+}
+
+.cartinfo i {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+/*all departments*/
+.alldepartments {
+    width: 100%;
+    height: auto;
+}
+
+.alldepartmentssized {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 15px 0 10px 0;
+}
+
+.departments {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.departments button {
+    width: 200px;
+    height: 40px;
+    background-color: #0AAD0A;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+nav {
+    width: 80%;
+    height: auto;
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.bannersized {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 40px 0;
+}
+
+.absbanner {
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.bannerimg {
+    width: 100%;
+    height: auto;
+}
+
+.bannertext {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    padding: 100px 0 0 50px;
+}
+
+.bannerimg img {
+    width: 100%;
+}
+
+.bannertext h6 {
+    font-size: 12px;
+    background-color: #FFC107;
+    display: inline;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.bannertext h1 {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.bannertext p {
+    font-size: 17px;
+    color: #5D6D76;
+}
+
+.bannertext button {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #001E2B;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+}
+/*featured categories*/
+.featuredsized figure {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+.featured .col-6{
+    transition-duration: 0.10s;
+}
+.featured .col-6:hover{
+    box-shadow: 1px 1px 50px rgb(241, 232, 232);
+}
+.featuredsized figcaption {
+    padding-top: 20px;
+}
+
+/*fruits and vegetables*/
+.fruitsvegetables {
+    width: 100%;
+    height: auto;
+}
+
+.fruitsvegitablessized {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.banner1,
+.banner2 {
+    width: 48%;
+    height: auto;
+    float: left;
+    position: relative;
+    border-radius: 15px;
+}
+
+.banner1 {
+    margin-right: 4%;
+}
+
+.banner1img,
+.banner2img {
+    width: 100%;
+    height: auto;
+}
+
+.banner1text,
+.banner2text {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    padding: 40px 0 0 30px;
+}
+
+.fruitsvegitablessized img {
+    width: 100%;
+}
+
+.fruitsvegitablessized h2 {
+    margin: 0;
+}
+
+.fruitsvegitablessized h6 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(92, 89, 89);
+    padding: 10px 0 10px 0;
+}
+
+.fruitsvegitablessized button {
+    width: 110px;
+    height: 40px;
+    background-color: #001E2B;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+/*popular product*/
+.popularprodsized {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 50px 0;
+}
+
+.popularprodsized figure{
+    height: 450px;
+}
+
+.popularprodsized figure {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.popularprodsized img {
+    width: 100%;
+}
+
+.prodimg1 .status {
+    background-color: #DB3030;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 1.5px 3px;
+}
+
+.popularprodsized span {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(129, 124, 124);
+}
+
+.popularprodsized figcaption {
+    font-size: 16px;
+    padding: 5px 0 0 0;
+}
+
+.popularprodsized i {
+    color: #FFC107;
+}
+
+.popularprodsized strike {
+    color: #5C6C75;
+}
+
+.popularprodsized h6 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    display: inline-block;
+    padding: 0 70px 0 0;
+}
+
+.popularprodsized button {
+    background-color: #0AAD0A;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+.popularprodsized .addcolor {
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+/*img2*/
+.prodimg2 .status {
+    margin: 20px 0 0 0;
+    padding: 1.5px 3px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+/*img3*/
+.prodimg3 img {
+    padding: 39px 0 0 0;
+}
+
+/*img4*/
+.prodimg4 .status {
+    font-weight: 600;
+    margin: 20px 0 0 0;
+    padding: 1.5px 4px;
+    background-color: #DB3030;
+    border-radius: 2px;
+}
+
+/*img5*/
+.prodimg5 img {
+    padding: 39px 0 0 0;
+}
+
+/*img6*/
+.prodimg6 .status {
+    background-color: #DB3030;
+    padding: 1.5px 3px;
+    font-weight: 600;
+    border-radius: 2px;
+    margin: 20px 0 0 0;
+}
+
+/*img 7 8 9 10*/
+.prodimg7 img,
+.prodimg8 img,
+.prodimg9 img,
+.prodimg10 img {
+    padding-bottom: 39px;
+}
+
+/*Daily Best Sells*/
+.dailybest {
+    width: 100%;
+    height: auto;
+}
+
+.dailybestsized {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 15px 0 0 0;
+}
+
+.dailybanner {
+    width: 25%;
+    height: auto;
+    float: left;
+    position: relative;
+    color: white;
+}
+
+.dimg1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dimgtext {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    padding: 40px 0 0 20px;
+
+}
+
+.dimgtext p {
+    font-size: 14px;
+}
+
+.dimgtext button {
+    width: 120px;
+    height: 40px;
+    background-color: #099309;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/*roastground , crushed tomatoes*/
+.roastground {
+    width: 24%;
+    height: 425px;
+    float: left;
+    border-radius: 10px;
+}
+
+.roastground figure {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.roastground img {
+    width: 80%;
+    padding-left: 30px;
+}
+
+/*roast ground timer*/
+.roasttimer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.days,
+.hours,
+.mins,
+.sec {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 4%;
+    border: 1px solid rgb(188, 184, 184);
+    padding: 1px 0;
+    border-radius: 5px;
+}
+
+.roastground h6 {
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.roastground span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #a4afb5;
+}
+
+.roastground h1 {
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.roastground h6 {
+    margin: 0;
+    padding: 22px 0 0 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.roastground i {
+    color: #FFC107;
+}
+
+.roastground p {
+    padding: 0 0 0 100px;
+    display: inline;
+    margin: 0;
+}
+
+.roastground button {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    background-color: #099309;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    margin: 14px 0 0 0;
+}
+
+.roastground .buttoncolori {
+    color: white;
+}
+
+/*4 feautures*/
+.features4 {
+    width: 100%;
+    height: auto;
+}
+
+.features4fixed {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 60px 0;
+}
+
+.tenmin,
+.bestprices,
+.wide,
+.easyreturns {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+.features4fixed i {
+    color: #099309;
+    font-size: 35px;
+}
+
+.features4fixed p {
+    font-size: 15px;
+    color: #7c868b
+}
+
+/*footer*/
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #F0F3F2;
+}
+
+.footersized {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.footersized h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footersized ul {
+    padding: 0;
+    font-size: 15px;
+    list-style: none;
+    line-height: 30px;
+    color: #5b625f;
+}
+
+.flist1 {
+    width: 40%;
+    height: 400px;
+}
+
+.footersized .flist1,
+.flist2,
+.flist3,
+.flist4,
+.flist5,
+.flist6 {
+    width: 16%;
+    float: left;
+}
+
+.flist2 {
+    padding-top: 16px;
+}
+
+/*payment partners and app*/
+.partners {
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    padding: 20px 0;
+    border-top: 1px solid rgb(173, 170, 170);
+    border-bottom: 1px solid rgb(173, 170, 170);
+    text-align: center;
+}
+
+.payments h6 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    width: 150px;
+    padding-top: 5px;
+}
+
+.payments {
+    width: 50%;
+    height: auto;
+    clear: both;
+}
+
+.payments .amazon,
+.payments .express,
+.payments .mastercard,
+.payments .paypal,
+.payments .visa {
+    width: 10%;
+    height: auto;
+    float: left;
+}
+
+.payments .ptext {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 60px;
+}
+
+.apps {
+    width: 50%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.apptext,
+.appstore,
+.playstore {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+.apps img {
+    width: 90%;
+    margin: 0;
+    margin-left: 80px;
+}
+
+.apptext h6 {
+    display: inline-block;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+
+}
+
+.rights {
+    width: 100%;
+    height: auto;
+    background-color: #F0F3F2;
+}
+
+.rightsfixed {
+    width: 80%;
+    margin: auto;
+    padding: 0 0 100px 0;
+
+}
+
+.rights1,
+.rightssocial {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.rightssocial {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.rightsfixed h6 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #a5afab;
+}
+
+.rights1 span {
+    font-size: 15px;
+    color: #0AAD0A;
+}
+
+.rightssocial i {
+    color: #6e7572;
+    border: 1px solid #a5afab;
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.rightssocial i:hover {
+    transition-duration: 1s;
+    color: #099309;
+}
